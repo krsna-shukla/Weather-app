@@ -23,12 +23,6 @@ A simple and responsive weather application that shows real-time weather data us
 
 ---
 
-# Live Demo
-
-👉 https://krsna-shukla.github.io/Weather-app/
-
----
-
 # Note
 
 API key is exposed for demo purposes. In production, use environment variables.
