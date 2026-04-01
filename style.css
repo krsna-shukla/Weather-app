@@ -5,10 +5,11 @@
 
 .container{
     width: 100%;
-    height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -25,7 +26,8 @@
     padding: 5px;
     color: black;
     border-radius: 4px;
-    width: 350px;
+    width: 100%;
+    max-width: 400px;
     
 }
 
@@ -50,4 +52,42 @@ body{
 
 .weather_icon{
     width: 80px;
+}
+
+@media (max-width: 768px){
+
+    .temp{
+        font-size: 3rem;
+    }
+
+    .time_location{
+        font-size: 1.2rem;
+    }
+
+    .search_area{
+        width: 100%;
+        max-width: 280px;
+    }
+
+    nav form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    nav form button{
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .temp{
+        font-size: 2.5rem;
+    }
+
+    .weather_icon{
+        width: 60px;
+    }
 }
