@@ -1,20 +1,21 @@
-#  Weather App
+# Weather App
 
 A simple and responsive weather application that shows real-time weather data using WeatherAPI.
 
 ---
 
-#  Features
+# Features
 
-* Shows current temperature
-* Search any city
-* Displays local date & time
-* Weather condition + icon
-* Dynamic background based on weather & temperature
+*  Displays current temperature
+*  Search weather by city name
+*  Shows local date & time
+*  Weather condition with icon
+*  Dynamic background based on temperature & weather condition
+*  Fast and lightweight UI
 
 ---
 
-#  Tech Stack
+# Tech Stack
 
 * HTML
 * CSS
@@ -23,12 +24,48 @@ A simple and responsive weather application that shows real-time weather data us
 
 ---
 
-# Note
 
-API key is exposed for demo purposes. In production, use environment variables.
+# Live Demo
+
+👉 https://krsna-shukla.github.io/Weather-app/
+
+---
+
+# Project Structure
+
+```
+Weather-app/
+│── index.html
+│── style.css
+│── script.js
+```
+
+---
+
+# Important Note
+
+This project uses a public API key for demonstration purposes.
+In real-world applications, API keys should be stored securely using environment variables.
+
+---
+
+# Learnings
+
+* Working with APIs using `fetch`
+* DOM manipulation in JavaScript
+* Handling user input
+* Dynamic UI updates
+* Git & GitHub deployment (GitHub Pages)
 
 ---
 
 # Author
 
-Krishna Shukla
+**Krishna Shukla**
+
+---
+
+# Support
+
+If you like this project, give it a ⭐ on GitHub!
+
